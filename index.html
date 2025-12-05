@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="GODS Clasificador - Programa clasificador de vídeos con IA para creadores de contenido. Organiza automáticamente tus videos usando Inteligencia Artificial.">
+    <meta name="keywords"
+        content="clasificador de videos, IA, inteligencia artificial, organización de videos, creadores de contenido, automatización">
+    <meta name="author" content="GODS Clasificador">
+    <title>GODS Clasificador - Clasificador Inteligente de Videos con IA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Outfit:wght@700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <span class="logo-icon">🎬</span>
+                <span class="logo-text">GODS Clasificador</span>
+            </div>
+            <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#caracteristicas" class="nav-link">Características</a></li>
+                <li><a href="#uso" class="nav-link">Uso</a></li>
+                <li><a href="#descargas" class="nav-link">Descargas</a></li>
+                <li><a href="#requisitos" class="nav-link">Requisitos</a></li>
+                <li><a href="#videos" class="nav-link">Tutoriales</a></li>
+                <li><a href="#licencia" class="nav-link">Licencia</a></li>
+                <li><a href="https://github.com/ader200/gods" class="nav-link nav-link-github"
+                        target="_blank">GitHub</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-background"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">GODS Clasificador</span>
+                </h1>
+                <p class="hero-subtitle">Clasificador de vídeos con IA para creadores de contenido</p>
+                <p class="hero-description">
+                    Programa inteligente que organiza automáticamente tus videos, genera descripciones optimizadas
+                    y crea hashtags relevantes usando Inteligencia Artificial de última generación.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#descargas" class="btn btn-primary">
+                        <span>⬇️ Descargar Ahora</span>
+                    </a>
+                    <a href="#videos" class="btn btn-secondary">
+                        <span>▶️ Ver Tutorial</span>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Automático</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">IA</div>
+                        <div class="stat-label">Powered</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">Gratis</div>
+                        <div class="stat-label">Open Source</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/hero_image.png" alt="GODS Clasificador Interface" class="hero-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="caracteristicas">
+        <div class="container">
+            <h2 class="section-title">✨ Características Principales</h2>
+            <p class="section-subtitle">Todo lo que necesitas para organizar tus videos de forma inteligente</p>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3 class="feature-title">Clasificación con IA</h3>
+                    <p class="feature-description">
+                        Utiliza Google Gemini AI para analizar el contenido de tus videos y clasificarlos
+                        automáticamente
+                        en categorías relevantes.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">📝</div>
+                    <h3 class="feature-title">Renombrado Automático</h3>
+                    <p class="feature-description">
+                        Genera nombres descriptivos y profesionales para tus videos basándose en su contenido real,
+                        no en nombres genéricos.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">📁</div>
+                    <h3 class="feature-title">Organización Inteligente</h3>
+                    <p class="feature-description">
+                        Crea y organiza automáticamente carpetas por categoría, manteniendo tu biblioteca de videos
+                        perfectamente estructurada.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">💬</div>
+                    <h3 class="feature-title">Descripciones Optimizadas</h3>
+                    <p class="feature-description">
+                        Genera descripciones atractivas y optimizadas para redes sociales, listas para copiar y pegar
+                        en YouTube, TikTok o Instagram.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">#️⃣</div>
+                    <h3 class="feature-title">Hashtags Relevantes</h3>
+                    <p class="feature-description">
+                        Crea automáticamente hashtags relevantes y trending basados en el contenido de cada video
+                        para maximizar tu alcance.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3 class="feature-title">Interfaz Moderna</h3>
+                    <p class="feature-description">
+                        Interfaz gráfica intuitiva con progreso en tiempo real, sin necesidad de usar la consola
+                        o línea de comandos.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3 class="feature-title">Progreso en Tiempo Real</h3>
+                    <p class="feature-description">
+                        Visualiza el progreso de cada video con barras de progreso, tiempo estimado y notificaciones
+                        detalladas en español.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">💾</div>
+                    <h3 class="feature-title">Ejecutable Independiente</h3>
+                    <p class="feature-description">
+                        Disponible como archivo .exe que no requiere instalación de Python ni dependencias adicionales.
+                        Solo descarga y ejecuta.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Usage Section -->
+    <section class="usage" id="uso">
+        <div class="container">
+            <h2 class="section-title">🚀 Cómo Usar</h2>
+            <p class="section-subtitle">Sigue estos simples pasos para empezar a organizar tus videos</p>
+
+            <div class="usage-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Obtén tu API Key de Gemini</h3>
+                        <p class="step-description">
+                            Visita <a href="https://makersuite.google.com/app/apikey" target="_blank"
+                                class="link">Google AI Studio</a>
+                            y obtén tu API Key gratuita. Es rápido y no requiere tarjeta de crédito.
+                        </p>
+                        <div class="code-block">
+                            <code>https://makersuite.google.com/app/apikey</code>
+                            <button class="copy-btn"
+                                data-copy="https://makersuite.google.com/app/apikey">Copiar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Configura la Aplicación</h3>
+                        <p class="step-description">
+                            Abre GODS Clasificador, ingresa tu API Key en el campo correspondiente y haz clic en
+                            "Guardar".
+                            La configuración se guardará automáticamente para futuros usos.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Selecciona tu Carpeta de Videos</h3>
+                        <p class="step-description">
+                            Haz clic en el botón "Seleccionar" junto a "Carpeta de Videos" y elige la carpeta que
+                            contiene
+                            tus archivos .mp4 que deseas clasificar.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Inicia la Clasificación</h3>
+                        <p class="step-description">
+                            Haz clic en "▶ Iniciar Clasificación" y observa cómo la IA procesa cada video.
+                            Verás el progreso en tiempo real con barras visuales y tiempo estimado.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h3 class="step-title">¡Listo! Videos Organizados</h3>
+                        <p class="step-description">
+                            Tus videos estarán organizados en carpetas por categoría, con nombres descriptivos y
+                            archivos .txt
+                            que contienen las descripciones y hashtags generados.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="example-box">
+                <h3 class="example-title">📋 Ejemplo de Resultado</h3>
+                <div class="example-grid">
+                    <div class="example-before">
+                        <h4>❌ Antes</h4>
+                        <div class="code-block">
+                            <pre><code>videos/
+  ├── VID_20231120_143022.mp4
+  ├── VID_20231121_091533.mp4
+  └── VID_20231122_183044.mp4</code></pre>
+                        </div>
+                    </div>
+                    <div class="example-after">
+                        <h4>✅ Después</h4>
+                        <div class="code-block">
+                            <pre><code>videos/
+  ├── Minecraft/
+  │   ├── tutorial_construccion_casa.mp4
+  │   └── tutorial_construccion_casa.txt
+  ├── Vlogs/
+  │   ├── dia_en_la_playa.mp4
+  │   └── dia_en_la_playa.txt
+  └── Gaming/
+      ├── gameplay_fortnite_victoria.mp4
+      └── gameplay_fortnite_victoria.txt</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Downloads Section -->
+    <section class="downloads" id="descargas">
+        <div class="container">
+            <h2 class="section-title">⬇️ Descargas</h2>
+            <p class="section-subtitle">Descarga la versión v1.0.0 en el formato que prefieras</p>
+
+            <div class="download-cards">
+                <div class="download-card featured">
+                    <div class="download-icon">💻</div>
+                    <h3 class="download-title">Ejecutable (.exe)</h3>
+                    <p class="download-description">
+                        Archivo ejecutable directo para Windows. No requiere descompresión.
+                        Solo descarga y ejecuta.
+                    </p>
+                    <div class="download-size">~50 MB</div>
+                    <a href="https://github.com/ader200/gods/releases/download/Gods_v1.0.0/gods_v1.0.0.exe"
+                        class="btn btn-download">
+                        <span>⬇️ Descargar gods_v1.0.0.exe</span>
+                    </a>
+                </div>
+
+                <div class="download-card">
+                    <div class="download-icon">📦</div>
+                    <h3 class="download-title">Archivo Comprimido (.rar)</h3>
+                    <p class="download-description">
+                        Versión comprimida del programa. Requiere descomprimir antes de usar.
+                        Ideal para ahorrar ancho de banda.
+                    </p>
+                    <div class="download-size">~30 MB</div>
+                    <a href="https://github.com/ader200/gods/releases/download/Gods_v1.0.0/gods_v1.0.0.rar"
+                        class="btn btn-download-secondary">
+                        <span>⬇️ Descargar gods_v1.0.0.rar</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="installation-note">
+                <h4>📝 Notas Importantes</h4>
+                <p>
+                    <strong>Versión Actual:</strong> v1.0.0 |
+                    <strong>Actualizaciones:</strong> Visita <a href="https://github.com/ader200/gods/releases"
+                        target="_blank" class="link">GitHub Releases</a> para nuevas versiones
+                </p>
+                <p>
+                    Si Windows Defender o tu antivirus bloquea el archivo .exe, es normal. Los ejecutables creados con
+                    PyInstaller a veces son marcados como falsos positivos. Puedes agregarlo a las excepciones de tu
+                    antivirus de forma segura.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Requirements Section -->
+    <section class="requirements" id="requisitos">
+        <div class="container">
+            <h2 class="section-title">⚙️ Requisitos del Sistema</h2>
+            <p class="section-subtitle">Asegúrate de cumplir con estos requisitos antes de usar GODS Clasificador</p>
+
+            <div class="requirements-grid">
+                <div class="requirement-card">
+                    <div class="requirement-icon">💻</div>
+                    <h3 class="requirement-title">Sistema Operativo</h3>
+                    <ul class="requirement-list">
+                        <li>Windows 10 o superior (64-bit)</li>
+                        <li>4 GB RAM mínimo (8 GB recomendado)</li>
+                        <li>500 MB de espacio en disco</li>
+                    </ul>
+                </div>
+
+                <div class="requirement-card">
+                    <div class="requirement-icon">🔑</div>
+                    <h3 class="requirement-title">API Key de Google Gemini</h3>
+                    <ul class="requirement-list">
+                        <li>Cuenta de Google (gratuita)</li>
+                        <li>API Key de Google AI Studio</li>
+                        <li>Conexión a internet activa</li>
+                    </ul>
+                </div>
+
+                <div class="requirement-card">
+                    <div class="requirement-icon">🎬</div>
+                    <h3 class="requirement-title">Archivos de Video</h3>
+                    <ul class="requirement-list">
+                        <li>Formato: .mp4</li>
+                        <li>Con pista de audio</li>
+                        <li>Audio en español (recomendado)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Videos Section -->
+    <section class="videos" id="videos">
+        <div class="container">
+            <h2 class="section-title">📺 Video Tutoriales</h2>
+            <p class="section-subtitle">Aprende a usar GODS Clasificador con estos tutoriales paso a paso</p>
+
+            <div class="videos-grid">
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <iframe src="https://www.youtube-nocookie.com/embed/ZqW798K8ndg?si=2GDuO_9mIHa5OuD8"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <h3 class="video-title">Instalación y Configuración Inicial</h3>
+                    <p class="video-description">
+                        Aprende a instalar GODS Clasificador y configurar tu API Key de Google Gemini en menos de 5
+                        minutos.
+                    </p>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <iframe src="https://www.youtube-nocookie.com/embed/RHqwW4vYwjw?si=pwIAFkauS137kdUN"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <h3 class="video-title">Cómo Clasificar tus Videos</h3>
+                    <p class="video-description">
+                        Tutorial completo sobre cómo usar la aplicación para clasificar y organizar tus videos
+                        automáticamente.
+                    </p>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <iframe src="https://www.youtube-nocookie.com/embed/SFHXSHISAmg?si=EZEloIsdWQ_dBNAO"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <h3 class="video-title">Tips y Solución de Problemas</h3>
+                    <p class="video-description">
+                        Consejos útiles y soluciones a los problemas más comunes que puedes encontrar al usar GODS
+                        Clasificador.
+                    </p>
+                </div>
+            </div>
+
+            <div class="youtube-cta">
+                <p>¿Quieres más tutoriales? Suscríbete a nuestro canal de YouTube</p>
+                <a href="https://www.youtube.com/@gomenoflolixd1982" target="_blank" class="btn btn-youtube">
+                    <span>📺 Visitar Canal de YouTube</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- License Section -->
+    <section class="license" id="licencia">
+        <div class="container">
+            <h2 class="section-title">📄 Licencia MIT</h2>
+            <p class="section-subtitle">GODS Clasificador es software libre y de código abierto</p>
+
+            <div class="license-content">
+                <div class="license-box">
+                    <h3>Licencia MIT</h3>
+                    <p>
+                        Copyright © 2024 GODS Clasificador
+                    </p>
+                    <p>
+                        Se concede permiso, de forma gratuita, a cualquier persona que obtenga una copia de este
+                        software
+                        y archivos de documentación asociados (el "Software"), para utilizar el Software sin
+                        restricciones,
+                        incluyendo sin limitación los derechos de usar, copiar, modificar, fusionar, publicar,
+                        distribuir,
+                        sublicenciar y/o vender copias del Software, y permitir a las personas a las que se les
+                        proporcione
+                        el Software hacer lo mismo, sujeto a las siguientes condiciones:
+                    </p>
+                    <p>
+                        El aviso de copyright anterior y este aviso de permiso se incluirán en todas las copias o
+                        porciones sustanciales del Software.
+                    </p>
+                    <p class="license-disclaimer">
+                        EL SOFTWARE SE PROPORCIONA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA,
+                        INCLUYENDO PERO NO LIMITADO A LAS GARANTÍAS DE COMERCIABILIDAD, IDONEIDAD PARA UN PROPÓSITO
+                        PARTICULAR Y NO INFRACCIÓN. EN NINGÚN CASO LOS AUTORES O TITULARES DEL COPYRIGHT SERÁN
+                        RESPONSABLES DE NINGUNA RECLAMACIÓN, DAÑOS U OTRAS RESPONSABILIDADES.
+                    </p>
+                </div>
+
+                <div class="license-features">
+                    <h3>¿Qué puedes hacer?</h3>
+                    <ul class="license-permissions">
+                        <li>✅ Uso comercial</li>
+                        <li>✅ Modificación del código</li>
+                        <li>✅ Distribución</li>
+                        <li>✅ Uso privado</li>
+                    </ul>
+                    <h3>Condiciones</h3>
+                    <ul class="license-conditions">
+                        <li>📋 Incluir aviso de licencia y copyright</li>
+                    </ul>
+                    <h3>Limitaciones</h3>
+                    <ul class="license-limitations">
+                        <li>❌ Sin garantía</li>
+                        <li>❌ Sin responsabilidad del autor</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="license-link">
+                <a href="LICENSE" class="btn btn-secondary">Ver Licencia Completa</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">GODS Clasificador</h3>
+                    <p class="footer-description">
+                        Clasificador inteligente de videos con IA para creadores de contenido.
+                    </p>
+                </div>
+
+                <div class="footer-section">
+                    <h4 class="footer-heading">Enlaces Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#caracteristicas">Características</a></li>
+                        <li><a href="#descargas">Descargas</a></li>
+                        <li><a href="#videos">Tutoriales</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4 class="footer-heading">Recursos</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://github.com/ader200/gods" target="_blank">GitHub</a></li>
+                        <li><a href="https://github.com/ader200/gods/issues" target="_blank">Reportar
+                                Bug</a></li>
+                        <li><a href="#licencia">Licencia MIT</a></li>
+                        <li><a href="https://makersuite.google.com/app/apikey" target="_blank">Obtener API Key</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4 class="footer-heading">Comunidad</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://www.youtube.com/@gomenoflolixd1982" target="_blank">YouTube</a></li>
+                        <li><a href="https://github.com/ader200/gods/discussions" target="_blank">Discusiones</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2024</span> GODS Clasificador. Todos los derechos reservados.</p>
+                <p class="footer-tech">Desarrollado con ❤️ usando Python, tkinter y Google Gemini AI</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
