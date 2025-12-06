@@ -19,13 +19,8 @@
     --bg-primary: #0f0f23;
     --bg-secondary: #1a1a2e;
     --bg-tertiary: #16213e;
-    --bg-card: rgba(26, 26, 46, 0.8);
-    /* Increased opacity for better fallback */
-    --bg-card-solid: #1a1a2e;
-    /* Solid fallback for browsers without backdrop-filter */
+    --bg-card: rgba(26, 26, 46, 0.6);
     --bg-glass: rgba(255, 255, 255, 0.05);
-    --bg-glass-solid: rgba(26, 26, 46, 0.95);
-    /* Solid fallback */
 
     /* Text */
     --text-primary: #ffffff;
